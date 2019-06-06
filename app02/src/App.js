@@ -1,11 +1,14 @@
 import React from "react";
 import GlobalStyle from "./styles/global";
 
+import "./styles/global";
+
+import Main from "./pages/Main";
+
 const App = () => (
   <>
-    <GlobalStyle>
-      <div className="App" />
-    </GlobalStyle>
+    <Main />
+    <GlobalStyle />
   </>
 );
 
