@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
     background: #2D5D9F;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
+    font-family: sans-serif;
   }
 `;
 
